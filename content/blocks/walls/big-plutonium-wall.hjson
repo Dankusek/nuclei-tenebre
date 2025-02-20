@@ -1,0 +1,16 @@
+name: big-plutonium-wall
+type: Wall
+category: defense
+size: 2
+health: 1520
+
+requirements: [
+    plutonium/24
+]
+
+research: {
+    parent: plutonium-wall
+    requirements: [
+        plutonium/48
+    ]
+  }

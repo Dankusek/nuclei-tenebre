@@ -1,0 +1,71 @@
+generator: SerpuloPlanetGenerator
+localizedName: "Epheris"
+parent: sun
+iconColor: 36eb72
+orbitRadius: 115
+hasAtmosphere: true
+updateLighting: false
+atmosphereRadIn: 0.02
+atmosphereRadOut: 0.3
+atmosphereColor: 4cfa25
+drawOrbit: true
+
+accessible: true
+alwaysUnlocked: true
+defaultCore: "Core"
+sectorSeed: 0
+startSector: 1
+sectorSize: 1
+
+clearSectorOnLose: true
+allowSectorInvasion: false
+allowLaunchToNumbered: false
+
+cloudMesh: {
+  type: HexSkyMesh
+  planet: Epheris
+  seed: 2
+  speed: 2
+  radius: 0.21
+  divisions: 5
+  color: 60d166
+  octaves: 2
+  persistence: 1
+  scl: 2
+  thresh: 0.45
+}
+
+mesh: {
+    type: NoiseMesh
+    planet: Epheris
+    seed: 562697
+    color1: 0c8735
+    color2: 76f05d
+    divisions: 6
+    radius: 0.8
+    octaves: 9
+    persistence: 1
+    scl: 0.75
+    mag: 1.2
+}
+
+hiddenItems: [
+    "copper"
+    "lead"
+    "titanium"
+    "scrap"
+    "graphite"
+    "plastanium"
+    "phase-fabric"
+    "surge-alloy"
+    "spore-pod"
+    "blast-compound"
+    "pyratite"
+    "metaglass"
+    "beryllium"
+    "oxide"
+    "tungsten"
+    "carbide"
+    "fissile-matter"
+    "dormant-cyst"
+]

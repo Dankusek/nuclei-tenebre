@@ -1,0 +1,4 @@
+  variants: 2
+  itemDrop: plutonium
+  name: Plutonium Ore
+  type: OreBlock

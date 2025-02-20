@@ -1,0 +1,4 @@
+type: floor,
+name: Uranocircite Floor,
+variants: 2,
+wall: uranocircite-wall

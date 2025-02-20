@@ -1,0 +1,4 @@
+  variants: 2
+  itemDrop: molybdenum
+  name: Molybdenum Ore
+  type: OreBlock

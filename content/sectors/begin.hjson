@@ -1,0 +1,16 @@
+  localizedName: Beginning
+  description: test map
+  captureWave: 15
+  difficulty: 1
+  alwaysUnlocked: true
+  addStartingItems: true
+  startWaveTimeMultiplier: 3
+  useAI: false
+  showSectorLandInfo: true
+  planet: Epheris
+  name: begin
+  sector: 1
+
+  research: {
+    parent: "Core"
+  }

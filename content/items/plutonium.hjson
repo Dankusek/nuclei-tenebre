@@ -1,0 +1,17 @@
+  name: plutonium
+  explosiveness: 0.1
+  flammability: 0
+  radioactivity: 0.8
+  charge: 0.02
+  color: 4bbf83
+  cost: 1
+  tier: 2
+
+  hiddenOnPlanets: [
+    serpulo
+    erekir
+  ]
+  
+  research: {
+    parent: Core
+  }
