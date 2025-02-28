@@ -1,5 +1,5 @@
 type: CoreBlock
-localizedName: Core
+Name: aegis
 category: effect
 health: 2200
 size: 4

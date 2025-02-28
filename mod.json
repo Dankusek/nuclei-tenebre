@@ -1,8 +1,8 @@
 minGameVersion: 136 //Минимальная версия игры для работы мода
 name: "nuclei" //Название хранящееся в файле игры
-subtitle: "Hello" //Подзаголовок
+subtitle: "  " //Подзаголовок
 displayName: "Nuclei Tenebre" //Отображаемое название мода
-description: "mod!" //Описание мода
-author: "Dankusek" //Автор мода (создатель)
+description: "A mod that adds a new, radiation-infested planet, Epheris, and much more!" //Описание мода
+author: "Dankusek, AnDashik and others" //Автор мода (создатель)
 version: "1" //Версия мода
 hidden: true //Доступен ли в мультиплеере (true - доступен, false - недоступен)
