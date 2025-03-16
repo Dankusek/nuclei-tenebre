@@ -1,12 +1,24 @@
-type: Drill
-size: 2
-tier: 2
-drillTime: 200
-itemCapacity: 20
-rotateSpeed: 1.25
-warmupSpeed: 0.001
-requirements: [ molybdenum/16 ]
-category: production
-health: 120
-speed: 0.24
-research: { parent: test-conveyor, requirements: [ testItem/10 ] }
+  type: Drill
+  size: 2
+  tier: 2     //Бурит предмет такой прочности
+  drillTime: 200
+  itemCapacity: 20
+  rotateSpeed: 3
+  warmupSpeed: 0.035
+  liquidBoostIntensity: 1.2
+  liquidCapacity: 5
+  outputLiquid: water
+  outputLiquidPerTick: 0.5
+  //Стоимость постройки
+  requirements: [
+    molybdenum/16
+  ]
+  category: production
+  health: 120
+  speed: 0.75
+  research: {
+      parent: test-conveyor
+      requirements: [
+          testItem/10
+ ]
+}
