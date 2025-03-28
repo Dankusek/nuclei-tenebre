@@ -1,0 +1,15 @@
+{
+	"type": "DuctBridge",
+	"size": 1,
+	"health": 50,
+	"speed": 2.4,
+	"range": 5,
+	"category": "distribution",
+	"requirements": ["testItem/2"],
+	"research": {
+		"parent": "kakoi-to-duct"
+		"requirements": [
+			"testItem/5"
+		]
+	},
+}

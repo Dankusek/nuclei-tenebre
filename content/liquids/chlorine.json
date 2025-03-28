@@ -1,0 +1,11 @@
+{
+	"type": "Liquid",
+	"temperature": 1,
+	"flammability": 1,
+	"heatCapacity": 1,
+	"explosiveness": 1,
+	"color": "ffffff",
+	"barColor": "ffffff",
+	"lightColor": "ffffff",
+	"research": "Core"
+}

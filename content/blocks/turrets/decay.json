@@ -1,0 +1,115 @@
+{
+	"type": "ItemTurret",
+	"size": 2,
+	"reload": 200,
+	"range": 200,
+	"recoil": 1,
+	"recoils": 2,
+	"rotatespeed": 1,
+	"shake": 1,
+	"maxAmmo": 10,
+	"inaccuracy": 1,
+	"shootEffect": "shootBig",
+	"shootSound": "shootBig",
+	"smokeEffect": "shootBigSmoke"
+	"drawer": {
+		"type": "DrawTurret",
+		"basePrefix": "-base"
+		"parts": [
+			{
+				"type": "RegionPart",
+				"suffix": "-barrel-r",
+				"under": true,
+				"progress": "recoil",
+				"recoilIndex": 1,
+				"moveY": -1
+			},
+			{
+				"type": "RegionPart",
+				"suffix": "-barrel-l",
+				"under": true,
+				"progress": "recoil",
+				"recoilIndex": 0,
+				"moveY": -1
+			},
+			{
+				"type": "RegionPart",
+				"suffix": "-wing-r",
+				"under": true,
+				"moveRot": -9,
+				"progress": {
+					"type": "warmup",
+					"op": "blend",
+					"other": "recoil",
+					"amount": 0.8
+				},
+			},
+			{
+				"type": "RegionPart",
+				"suffix": "-wing-l",
+				"under": true,
+				"moveRot": 9,
+				"progress": {
+					"type": "warmup",
+					"op": "blend",
+					"other": "recoil",
+					"amount": 0.8
+				},
+			}
+		]
+	},
+	"shoot": {
+		"type": "ShootAlternate"
+		"shotDelay": 2,
+		"spread": 4
+	},
+	"ammoTypes": {
+		"plutonium": {
+			"type": "EmpBulletType",
+			"sprite": "circle-bullet",
+			"width": 8,
+			"height": 8,
+			"frontColor": "cfdbaf",
+			"backColor": "b8dc60",
+			"damage": 200,
+			"splashDamage": 75,
+			"splashDamageRadius": 40,
+			"ammoMultiplier": 2,
+			"lifetime": 70,
+			"speed": 2,
+			"lightning": 3,
+			"lightningDamage": 40,
+			"powerDamageScl": 5,
+			"lightOpacity": 1,
+			"lightColor": "b8dc60"
+			"hitPowerEffect": {
+				"type": "ParticleEffect",
+				"line": true,
+				"particles": 4,
+				"lifetime": 20,
+				"length": 70,
+				"cone": -360,
+				"lenFrom": 5,
+				"lenTo": 4,
+				"colorFrom": "cfdbaf",
+				"colorTo": "b8dc60"
+			},
+		},
+	},
+	"consumes": {
+		"liquid": {
+			"liquid": "chlorine",
+			"amount": 0.1,
+			"booster": true,
+			"boost": 1.4,
+			"optional": true
+		},
+	}
+	"requirements": ["testItem/2"]
+	"research": {
+		"parent": "Core"
+		"requirements": [
+			"testItem/150"
+		]
+	},
+}

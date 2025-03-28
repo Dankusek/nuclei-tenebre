@@ -1,0 +1,14 @@
+{
+	"type": "OverflowDuct",
+	"size": 1,
+	"health": 35,
+	"speed": 2.4,
+	"category": "distribution",
+	"requirements": ["testItem/2"],
+	"research": {
+		"parent": "kakoi-to-duct-router"
+		"requirements": [
+			"testItem/5"
+		]
+	},
+}

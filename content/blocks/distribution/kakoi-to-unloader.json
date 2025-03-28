@@ -1,0 +1,14 @@
+{
+	"type": "DirectionalUnloader",
+	"size": 1,
+	"health": 75,
+	"speed": 4,
+	"category": "distribution",
+	"requirements": ["testItem/2"],
+	"research": {
+		"parent": "kakoi-to-overflow-duct-inverted"
+		"requirements": [
+			"testItem/5"
+		]
+	},
+}

@@ -1,0 +1,15 @@
+{
+	"type": "Duct",
+	"size": 1,
+	"health": 25,
+	"speed": 2.4,
+	"bridgeReplacement": "kakoi-to-duct-bridge",
+	"category": "distribution",
+	"requirements": ["testItem/2"],
+	"research": {
+		"parent": "Core"
+		"requirements": [
+			"testItem/5"
+		]
+	},
+}
