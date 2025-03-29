@@ -17,8 +17,8 @@
   health: 120
   speed: 0.75
   research: {
-      parent: test-conveyor
+      parent: molybdenum-duct
       requirements: [
-          testItem/10
+          molybdenum/20
  ]
 }

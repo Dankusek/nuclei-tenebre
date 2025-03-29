@@ -3,12 +3,13 @@
 	"size": 1,
 	"health": 35,
 	"speed": 2.4,
+	"invert": true,
 	"category": "distribution",
-	"requirements": ["testItem/2"],
+	"requirements": ["molybdenum/2"],
 	"research": {
-		"parent": "kakoi-to-duct-router"
+		"parent": "molybdenum-overflow-duct"
 		"requirements": [
-			"testItem/5"
+			"molybdenum/10"
 		]
 	},
 }

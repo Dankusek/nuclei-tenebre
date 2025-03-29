@@ -1,16 +1,16 @@
 {
 	"type": "ItemTurret",
 	"size": 2,
-	"reload": 200,
-	"range": 200,
+	"reload": 80,
+	"range": 110,
 	"recoil": 1,
 	"recoils": 2,
-	"rotatespeed": 1,
+	"rotatespeed": 0.5,
 	"shake": 1,
 	"maxAmmo": 10,
 	"inaccuracy": 1,
 	"shootEffect": "shootBig",
-	"shootSound": "shootBig",
+	"shootSound": "blaster"
 	"smokeEffect": "shootBigSmoke"
 	"drawer": {
 		"type": "DrawTurret",
@@ -69,19 +69,19 @@
 			"sprite": "circle-bullet",
 			"width": 8,
 			"height": 8,
-			"frontColor": "cfdbaf",
-			"backColor": "b8dc60",
-			"damage": 200,
+			"frontColor": "a7e87b",
+			"backColor": "8ce053",
+			"damage": 24,
 			"splashDamage": 75,
 			"splashDamageRadius": 40,
 			"ammoMultiplier": 2,
 			"lifetime": 70,
 			"speed": 2,
 			"lightning": 3,
-			"lightningDamage": 40,
+			"lightningDamage": 4,
 			"powerDamageScl": 5,
 			"lightOpacity": 1,
-			"lightColor": "b8dc60"
+			"lightColor": "81d656",
 			"hitPowerEffect": {
 				"type": "ParticleEffect",
 				"line": true,
@@ -91,8 +91,8 @@
 				"cone": -360,
 				"lenFrom": 5,
 				"lenTo": 4,
-				"colorFrom": "cfdbaf",
-				"colorTo": "b8dc60"
+				"colorFrom": "a7e87b",
+				"colorTo": "8ce053"
 			},
 		},
 	},
@@ -105,11 +105,12 @@
 			"optional": true
 		},
 	}
-	"requirements": ["testItem/2"]
+	"requirements": ["molybdenum/70","plutonium/70"]
 	"research": {
 		"parent": "Core"
 		"requirements": [
-			"testItem/150"
+			"molybdenum/150",
+			"plutonium/40"
 		]
 	},
 }

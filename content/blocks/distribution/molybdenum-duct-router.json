@@ -4,11 +4,11 @@
 	"health": 30,
 	"speed": 2.4,
 	"category": "distribution",
-	"requirements": ["testItem/2"],
+	"requirements": ["molybdenum/2"],
 	"research": {
-		"parent": "kakoi-to-duct"
+		"parent": "molybdenum-duct"
 		"requirements": [
-			"testItem/5"
+			"molybdenum/10"
 		]
 	},
 }

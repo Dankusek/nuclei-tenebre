@@ -4,11 +4,11 @@
 	"health": 75,
 	"speed": 4,
 	"category": "distribution",
-	"requirements": ["testItem/2"],
+	"requirements": ["molybdenum/20","plutonium/5"],
 	"research": {
-		"parent": "kakoi-to-overflow-duct-inverted"
+		"parent": "molybdenum-overflow-duct-inverted"
 		"requirements": [
-			"testItem/5"
+			"molybdenum/20"
 		]
 	},
 }
