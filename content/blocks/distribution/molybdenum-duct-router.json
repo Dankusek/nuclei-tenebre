@@ -1,0 +1,14 @@
+{
+	"type": "DuctRouter",
+	"size": 1,
+	"health": 30,
+	"speed": 2.4,
+	"category": "distribution",
+	"requirements": ["molybdenum/2"],
+	"research": {
+		"parent": "molybdenum-duct"
+		"requirements": [
+			"molybdenum/10"
+		]
+	},
+}

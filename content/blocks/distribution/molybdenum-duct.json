@@ -1,0 +1,15 @@
+{
+	"type": "Duct",
+	"size": 1,
+	"health": 25,
+	"speed": 2.4,
+	"bridgeReplacement": "molybdenum-duct-bridge",
+	"category": "distribution",
+	"requirements": ["molybdenum/2"],
+	"research": {
+		"parent": "Core"
+		"requirements": [
+			"molybdenum/10"
+		]
+	},
+}

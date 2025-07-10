@@ -1,0 +1,14 @@
+{
+	"type": "OverflowDuct",
+	"size": 1,
+	"health": 35,
+	"speed": 2.4,
+	"category": "distribution",
+	"requirements": ["molybdenum/2"],
+	"research": {
+		"parent": "molybdenum-duct-router"
+		"requirements": [
+			"molybdenum/10"
+		]
+	},
+}

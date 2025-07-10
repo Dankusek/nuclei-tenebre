@@ -1,0 +1,15 @@
+{
+	"type": "OverflowDuct",
+	"size": 1,
+	"health": 35,
+	"speed": 2.4,
+	"invert": true,
+	"category": "distribution",
+	"requirements": ["molybdenum/2"],
+	"research": {
+		"parent": "molybdenum-overflow-duct"
+		"requirements": [
+			"molybdenum/10"
+		]
+	},
+}

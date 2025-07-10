@@ -1,0 +1,14 @@
+{
+	"type": "DirectionalUnloader",
+	"size": 1,
+	"health": 75,
+	"speed": 4,
+	"category": "distribution",
+	"requirements": ["molybdenum/20","plutonium/5"],
+	"research": {
+		"parent": "molybdenum-overflow-duct-inverted"
+		"requirements": [
+			"molybdenum/20"
+		]
+	},
+}

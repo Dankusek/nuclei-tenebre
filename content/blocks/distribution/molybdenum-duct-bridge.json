@@ -1,0 +1,15 @@
+{
+	"type": "DuctBridge",
+	"size": 1,
+	"health": 50,
+	"speed": 2.4,
+	"range": 5,
+	"category": "distribution",
+	"requirements": ["molybdenum/2"],
+	"research": {
+		"parent": "molubdenum-duct"
+		"requirements": [
+			"molybdenum/10"
+		]
+	},
+}
