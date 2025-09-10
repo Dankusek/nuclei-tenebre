@@ -1,4 +1,0 @@
-type: floor,
-name: Plutocinite Floor,
-variants: 2,             //Кол-во вариаций (Спрайтов)
-wall: plutocinite-wall

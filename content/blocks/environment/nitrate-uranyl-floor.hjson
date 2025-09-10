@@ -1,4 +1,0 @@
-type: floor,
-name: Nitrate-Uranyl Floor,
-variants: 2,             //Кол-во вариаций (Спрайтов)
-wall: nitrate-uranyl-wall

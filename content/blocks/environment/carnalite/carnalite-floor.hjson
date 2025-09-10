@@ -1,0 +1,4 @@
+type: floor
+name: Carnalite Floor
+variants: 5
+wall: carnalite-wall
